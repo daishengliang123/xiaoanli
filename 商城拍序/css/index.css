@@ -1,0 +1,35 @@
+.container{
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+    padding-right: 0;
+    padding-left: 0;
+}
+.nav .nav-item a{
+    color: #999;
+    font-size: 19px;
+}
+.nav .nav-item:nth-child(1) a{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-desk{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.card-desk .card{
+    width: 250px;
+    margin-bottom: 20px;
+}
+.card-desk .card img{
+    width: 200px;
+    height: 150px;
+    margin:10px auto;
+}
+.card-desk .card .card-body p{
+    margin-bottom: 0;
+    box-sizing: border-box;
+}

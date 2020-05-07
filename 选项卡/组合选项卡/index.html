@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+        }
+        .tab{
+            width: 30px;
+            height: 90px;
+            box-sizing: border-box;
+            border: 1px solid;
+        }
+        .tab >div{
+            height: 30px;
+            box-sizing: border-box;
+            border-bottom: 1px solid;
+            text-align: center;
+            line-height: 30px;
+        }
+        .box{
+            width: 500px;
+            height: 500px;
+            border: 1px solid;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        .box >div{
+            height: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            line-height: 100%;
+        }
+        .active{
+            background: red;
+        }
+        .tab2{
+            width: 90px;
+            height: 20px;
+            box-sizing: border-box;
+            border: 1px solid;
+            margin: auto;
+            display: flex;
+        }
+        .tab2 >div{
+            width: 30px;
+            height: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            line-height: 100%;
+            border-right: 1px solid;
+        }
+        .box2{
+            width: 500px;
+            height: 400px;
+            box-sizing: border-box;
+            border: 1px solid;
+            overflow: hidden;
+        }
+        .box2 >div{
+           width: 500px;
+           height: 400px;
+           line-height: 400px;
+           text-align: center;
+           box-sizing: border-box;
+        }
+        .active2{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="tab">
+        <div class="active">你</div>
+        <div>我</div>
+        <div>他</div>
+    </div>
+    <div class="box">
+        <div >
+            <div class="tab2">
+                <div class="active2">a</div>
+                <div>b</div>
+                <div>c</div>
+            </div>
+            <div class="box2">
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
+            </div>
+        </div>
+        <div>
+            <div class="tab2">
+                <div class="active2">a</div>
+                <div>b</div>
+                <div>c</div>
+            </div>
+            <div class="box2">
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
+            </div>
+        </div>
+        <div>
+            <div class="tab2">
+                <div class="active2">a</div>
+                <div>b</div>
+                <div>c</div>
+            </div>
+            <div class="box2">
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./index.js"></script>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+      *{
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          box-sizing: border-box;
+      }
+      .box{
+          margin: 20px auto;
+          width: 60px;
+          height: 20px;
+          text-align: center;
+          line-height: 20px;
+          border: 1px solid;
+          position: relative;
+        
+      }
+      .box div{
+          width: 500px;
+          height: 100px;
+          border: 1px solid;
+          text-align: center;
+          line-height: 100px;
+          position: absolute;
+          top: 18px;
+          left: -1px;
+          z-index: -1;
+          display: none;
+      }
+      .box:hover div{
+          display: block;
+      }
+      .box:hover{
+          border-bottom-color: #fff;
+      }
+  </style>
+</head>
+<body>
+    <div class="box">
+        <span>我是</span>
+        <div>
+            快来选购吧
+        </div>
+    </div>
+</body>
+</html>
